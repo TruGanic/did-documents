@@ -1,0 +1,20 @@
+{
+  "@context": ["https://www.w3.org/ns/did/v1"],
+  "id": "did:web:truganic.github.io:did-documents:clients:demo-client",
+  "verificationMethod": [
+    {
+      "id": "did:web:truganic.github.io:did-documents:clients:demo-client#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:truganic.github.io:did-documents:clients:demo-client",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "fd4f581d3485cbca5300482ea9d75f2601a1b7b07716b3e5007869e6fbf59fe6",
+        "y": "54ee4da36a2bea9c1abd185d03626f693cafde64f57764b8101d921241a56313"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:truganic.github.io:did-documents:clients:demo-client#key-1"
+  ]
+}
