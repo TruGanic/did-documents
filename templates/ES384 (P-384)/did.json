@@ -1,0 +1,18 @@
+{
+  "@context": ["https://www.w3.org/ns/did/v1"],
+  "id": "did:web:example.com:clients:es384-client",
+  "verificationMethod": [
+    {
+      "id": "did:web:example.com:clients:es384-client#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:example.com:clients:es384-client",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-384",
+        "x": "LONGER_BASE64URL_STRING_48_BYTES",
+        "y": "LONGER_BASE64URL_STRING_48_BYTES"
+      }
+    }
+  ],
+  "authentication": ["did:web:example.com:clients:es384-client#key-1"]
+}

@@ -1,0 +1,17 @@
+{
+  "@context": ["https://www.w3.org/ns/did/v1"],
+  "id": "did:web:example.com:clients:rs256-client",
+  "verificationMethod": [
+    {
+      "id": "did:web:example.com:clients:rs256-client#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:example.com:clients:rs256-client",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "VERY_LONG_MODULUS_BASE64URL_2048_BITS_OR_MORE",
+        "e": "AQAB"
+      }
+    }
+  ],
+  "authentication": ["did:web:example.com:clients:rs256-client#key-1"]
+}

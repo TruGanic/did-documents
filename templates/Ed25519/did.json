@@ -1,0 +1,17 @@
+{
+  "@context": ["https://www.w3.org/ns/did/v1"],
+  "id": "did:web:example.com:clients:ed25519-client",
+  "verificationMethod": [
+    {
+      "id": "did:web:example.com:clients:ed25519-client#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:example.com:clients:ed25519-client",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "XXjhnJtwS8-0ObBLP2SBBmAgtIRqhahKej6N3zyMtP1s"
+      }
+    }
+  ],
+  "authentication": ["did:web:example.com:clients:ed25519-client#key-1"]
+}

@@ -1,0 +1,18 @@
+{
+  "@context": ["https://www.w3.org/ns/did/v1"],
+  "id": "did:web:example.com:clients:es256-client",
+  "verificationMethod": [
+    {
+      "id": "did:web:example.com:clients:es256-client#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:example.com:clients:es256-client",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "XXjhnJtwS8-0ObBLP2SBBmAgtIRqhahKej6N3zyMtP1s",
+        "y": "n23CJtvcoR18miOANHOxg6mQtyEq8ZOz0tKGQZcp6Vxj"
+      }
+    }
+  ],
+  "authentication": ["did:web:example.com:clients:es256-client#key-1"]
+}
