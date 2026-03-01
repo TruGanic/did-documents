@@ -1,5 +1,7 @@
 {
-  "@context": ["https://www.w3.org/ns/did/v1"],
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
   "id": "did:web:truganic.github.io:did-documents:clients:farmer-client",
   "verificationMethod": [
     {
@@ -9,8 +11,8 @@
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "secp256k1",
-        "x": "a7c6192cdc0f91840a07e3d9e624ec4efec2e7dc30d6e553e9fc78a2250fa9ce",
-        "y": "c86774491439e10bc0a9709426ce32cbcbe3ecb36ca7689fa6edb9e603b59680"
+        "x": "c16e1e45fb938871239062325a3175eb8737e8df9fa4970256757f41bcc61ddc",
+        "y": "7ec0257e4101e25b55e954b841f6f1b58bffcff0b0b093c6301d15bfcc283b4c"
       }
     }
   ],
