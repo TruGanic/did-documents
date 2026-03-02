@@ -1,5 +1,7 @@
 {
-  "@context": ["https://www.w3.org/ns/did/v1"],
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
   "id": "did:web:truganic.github.io:did-documents:core",
   "verificationMethod": [
     {
@@ -9,10 +11,12 @@
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "secp256k1",
-        "x": "8mLIaTMJFTf518e_vMX2GHcDt14ECs1KoC4w4Ph_1cQ",
-        "y": "0GXtyb5ZhiQvuiMSKpyaNBzDUc39OIEGN3jenFIp2j8"
+        "x": "5c9ee39111bb11489c638d9184171a9cec4cc8d13858d3b296db8257ba27b38b",
+        "y": "e0f4e6687f81fd1a91aa7d8eb72c8b3fb54e4878259e5ad3353c2b66c1cd4e92"
       }
     }
   ],
-  "authentication": ["did:web:truganic.github.io:did-documents:core#key-1"]
+  "authentication": [
+    "did:web:truganic.github.io:did-documents:core#key-1"
+  ]
 }
