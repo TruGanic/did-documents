@@ -1,5 +1,7 @@
 {
-  "@context": ["https://www.w3.org/ns/did/v1"],
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
   "id": "did:web:truganic.github.io:did-documents:clients:certification-body-client",
   "verificationMethod": [
     {
@@ -9,8 +11,8 @@
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "secp256k1",
-        "x": "REPLACE_WITH_YOUR_PUBLIC_KEY_X",
-        "y": "REPLACE_WITH_YOUR_PUBLIC_KEY_Y"
+        "x": "47f6426c95399974de57cfcad2d9996c24a143827d5936a3b4954a6c1a83a605",
+        "y": "e81683935949cfd72bc2c8c9f0943ef15a126a0e897efb581e5ab6c6f65b583a"
       }
     }
   ],
