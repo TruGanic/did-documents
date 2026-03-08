@@ -1,5 +1,7 @@
 {
-  "@context": ["https://www.w3.org/ns/did/v1"],
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
   "id": "did:web:truganic.github.io:did-documents:clients:demo-client-1",
   "verificationMethod": [
     {
@@ -9,8 +11,8 @@
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "secp256k1",
-        "x": "uB_nmGGVMCxVMz8EiChhR6KuoXNQYnUaaOQInX2jMe4",
-        "y": "iIqd-gl6xOI_keRKsEKjeyRxvLAEQ5c8w0HWefMOYBE"
+        "x": "e6wc6Y1Tt3ZGSLRp1wyYrrcO6PeFV_-ahxYRoH11jX8",
+        "y": "P1IYP6o1zdKle3_r1cZqCV44yrmaFvKpE6phgCP5Uc8"
       }
     }
   ],
