@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:web:truganic.github.io:did-documents:clients:ci-automation-client",
+  "verificationMethod": [
+    {
+      "id": "did:web:truganic.github.io:did-documents:clients:ci-automation-client#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:truganic.github.io:did-documents:clients:ci-automation-client",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "BUISHOQuOWGHR4MxHvO6H2Br5mdqFQJ_XZ4lxiZ9yyU",
+        "y": "IyXNz5DINvSQ57NkN8ytyj80mgQWh-DQj6_7PUSMFOo"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:truganic.github.io:did-documents:clients:ci-automation-client#key-1"
+  ]
+}

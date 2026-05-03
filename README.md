@@ -40,6 +40,7 @@ did-documents/
 ├── clients/                 # Client-side DID documents
 │   ├── ar-ml-client/
 │   ├── certification-body-client/
+│   ├── ci-automation-client/
 │   ├── demo-client-1/
 │   ├── farmer-client/
 │   └── transport-agent-client/
@@ -90,6 +91,7 @@ Client DIDs are used by end-user applications and services that interact with th
 - **`certification-body-client`** - DID for certification body client applications
 - **`ar-ml-client`** - DID for AR/ML client applications
 - **`demo-client-1`** - Demo client for testing purposes
+- **`ci-automation-client`** - Reserved for CI / automated security tests (not for production apps)
 
 ### Client DID Structure
 
