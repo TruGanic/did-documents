@@ -1,22 +1,22 @@
 {
-    "@context": [
-      "https://www.w3.org/ns/did/v1"
-    ],
-    "id": "did:web:truganic.github.io:did-documents:clients:demo-client",
-    "verificationMethod": [
-      {
-        "id": "did:web:truganic.github.io:did-documents:clients:demo-client#key-1",
-        "type": "JsonWebKey2020",
-        "controller": "did:web:truganic.github.io:did-documents:clients:demo-client",
-        "publicKeyJwk": {
-          "kty": "EC",
-          "crv": "secp256k1",
-          "x": "49dhq8APCEwx4rmuYoO08oXMsCSBb-Ql64eQwAjS-yY",
-          "y": "UdRRU1zSEW4NDpVKeqaDgORfGb6CA_3MvX3h_Qclenk"
-        }
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:web:truganic.github.io:did-documents:clients:demo-client",
+  "verificationMethod": [
+    {
+      "id": "did:web:truganic.github.io:did-documents:clients:demo-client#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:truganic.github.io:did-documents:clients:demo-client",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "3Gos8W_nM39rjj84ZRN162b1b9XNh8zE6Uw-DlFMW5M",
+        "y": "ybPXNifjYhtkvMFeuMPhEWzyTbdl3K77dcyP5U1yjCw"
       }
-    ],
-    "authentication": [
-      "did:web:truganic.github.io:did-documents:clients:demo-client#key-1"
-    ]
-  }
+    }
+  ],
+  "authentication": [
+    "did:web:truganic.github.io:did-documents:clients:demo-client#key-1"
+  ]
+}
